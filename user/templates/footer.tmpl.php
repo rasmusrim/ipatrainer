@@ -21,7 +21,7 @@
 		<td width="800" align="right">
 			<div class="info">
 				<br>
-				This system was programmed by <b>Rasmus Rimestad</b> 2008
+				The IPA Trainer is maintained by <a href="https://github.com/rasmusrim/ipatrainer">the open source community</a>.
 			</div>
 		</td>
 	</tr>

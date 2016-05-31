@@ -10,9 +10,6 @@ if(!$title) {
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
 <META HTTP-EQUIV="content-language" content="EN">
 
-<!-- google_ad_section_start -->
-<META NAME="keywords" content="IPA phonetics phonetic language linguist english french german international phonetic assocation study practice learn write transcribe consonant table vowel trapezium">
-<!-- google_ad_section_end -->
 
 <META NAME="title" content="IPA Trainer">
 
