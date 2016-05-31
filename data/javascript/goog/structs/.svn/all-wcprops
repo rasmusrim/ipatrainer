@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2129/trunk/goog/structs
+END
+linkedmap.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2129/trunk/goog/structs/linkedmap.js
+END
+queue.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2129/trunk/goog/structs/queue.js
+END
+node.js
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2129/trunk/goog/structs/node.js
+END
+priorityqueue.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2129/trunk/goog/structs/priorityqueue.js
+END
+structs.js
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2129/trunk/goog/structs/structs.js
+END
+pool.js
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2129/trunk/goog/structs/pool.js
+END
+prioritypool.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2129/trunk/goog/structs/prioritypool.js
+END
+set.js
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2129/trunk/goog/structs/set.js
+END
+map.js
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2129/trunk/goog/structs/map.js
+END
+heap.js
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2129/trunk/goog/structs/heap.js
+END
+circularbuffer.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2129/trunk/goog/structs/circularbuffer.js
+END
+avltree.js
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2129/trunk/goog/structs/avltree.js
+END
+trie.js
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2129/trunk/goog/structs/trie.js
+END
+simplepool.js
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2129/trunk/goog/structs/simplepool.js
+END

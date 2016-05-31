@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2129/trunk/goog/useragent
+END
+useragent.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2129/trunk/goog/useragent/useragent.js
+END
+flash.js
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2129/trunk/goog/useragent/flash.js
+END
+adobereader.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2129/trunk/goog/useragent/adobereader.js
+END
+jscript.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2129/trunk/goog/useragent/jscript.js
+END
+picasa.js
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2129/trunk/goog/useragent/picasa.js
+END
+iphoto.js
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2129/trunk/goog/useragent/iphoto.js
+END

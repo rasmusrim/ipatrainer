@@ -1,0 +1,52 @@
+[template_header]
+<script>
+function loadSounds() {
+	// Loading SM2 sounds
+	[field_html_soundmanagerString]
+}
+
+
+</script>
+
+<div align="right">
+	<table border="0" cellspacing="0" cellpadding="2">
+		<tr>
+			<td>	
+
+				<a href="index.php?adminID=[field_adminID]&consonantTableID=[field_consonantTableID]&c=consonant_table&a=display_functions">	
+				<img src="[field_GFX_URL]/icon_exit.png" height="20" width="20" border="0">
+				</a>
+			</td>
+			
+			<td>				
+				
+				<a href="index.php?adminID=[field_adminID]&consonantTableID=[field_consonantTableID]&c=consonant_table&a=display_functions">	
+				Exit
+				</a>&nbsp;&nbsp;&nbsp;
+			</td>
+
+		</tr>
+	</table>
+	
+</div>
+
+
+<center>
+
+<!-- google_ad_section_start -->
+<h1>[field_name]</h1>
+<!-- google_ad_section_end -->
+
+[field_html_muteMessage]
+
+[template_footer]
+<br><br>
+<form action="index.php" method="GET">
+	<input type="hidden" name="adminID" value="[field_adminID]">
+	<input type="hidden" name="consonantTableID" value="[field_consonantTableID]">
+	<input type="hidden" name="c" value="consonant_table">
+	<input type="hidden" name="a" value="display_functions">
+	
+	<input type="submit" value="Done">
+</form>
+<br>

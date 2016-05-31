@@ -1,0 +1,109 @@
+[template_header]
+<div align="right">
+	<table border="0" cellspacing="0" cellpadding="2">
+		<tr>
+
+			<td>	
+				<a href="site/index.php?pageID=help_identify_characters" target="help">	
+				<img src="[field_GFX_URL]/icon_help.png" height="20" width="20" border="0">
+				</a>
+			</td>
+			
+			<td>				
+				<a href="site/index.php?pageID=help_identify_characters" target="help">	
+				Help
+				</a>&nbsp;&nbsp;&nbsp;
+			</td>
+
+			<td>	
+
+				<a href="index.php?adminID=[field_adminID]&consonantTableID=[field_consonantTableID]&c=consonant_table&a=display_functions">	
+				<img src="[field_GFX_URL]/icon_exit.png" height="20" width="20" border="0">
+				</a>
+			</td>
+			
+			<td>				
+				
+				<a href="index.php?adminID=[field_adminID]&consonantTableID=[field_consonantTableID]&c=consonant_table&a=display_functions">	
+				Exit
+				</a>&nbsp;&nbsp;&nbsp;
+			</td>
+
+		</tr>
+	</table>
+	
+</div>
+
+<center>
+
+<a name="bottomCharacter"></a>
+<!-- google_ad_section_start -->
+<h1>[field_name]</h1>
+<!-- google_ad_section_end -->
+
+<h1>[field_html_correctMessage]</h1>
+
+[field_correct] correct guesses of [field_total] ([field_percentage] %) 
+
+
+<form action="index.php" method="GET">
+	<input type="hidden" name="adminID" value="[field_adminID]">
+	<input type="hidden" name="consonantTableID" value="[field_consonantTableID]">
+	<input type="hidden" name="c" value="consonant_table">
+	<input type="hidden" name="a" value="display_functions">
+	<input type="submit" value="Done">
+
+</form>
+<br>
+
+
+[template_result]
+<h1>[field_html_result]</h1>
+
+[template_footer]
+
+<script type="text/javascript">
+function loadSounds() {
+  // Loading SM2 sounds
+	soundManager.createSound("char", "[field_character_sound]");
+}
+
+</script>
+
+
+<br><br>
+<table border="1">
+<tr>
+<td>
+[field_html_preAnchor]<img src="[field_character_image]" border="0">[field_html_postAnchor]
+</td>
+</tr>
+</table>
+
+<br>[field_soundOnMessage]
+
+</center>
+
+<div align="right">
+<script>
+function fbs_click() {
+	u = location.href.replace("#bottomCharacter", "") + '&description=I got [field_correct] correct guesses out of [field_total] in this IPA character quiz!';
+	t = 'IPA Trainer';
+	window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');
+	return false;
+	
+}
+</script>
+
+<style> 
+html .fb_share_link { 
+	padding:2px 0 0 20px;
+	height:16px;
+	background:url(http://b.static.ak.fbcdn.net/images/share/facebook_share_icon.gif?8:26981) no-repeat top left; 
+}
+</style>
+<a href="http://www.facebook.com/share.php?u=<url>" onclick="return fbs_click()" target="_blank" class="fb_share_link">
+	Share result on Facebook
+</a>
+
+</div>

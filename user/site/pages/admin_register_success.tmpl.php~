@@ -1,0 +1,33 @@
+<h1>Welcome to IPA trainer!</h1>
+
+This site offers a tool for lectures who teach IPA characters and for students who learn IPA characters to do so in a way that is more interesting and fun.<br><br>
+
+<img src="<?PHP print(ROOT_URL); ?>/user/site/images/001.jpg" align="right">
+
+Everything on this site is free. I made it as a part of an exam at the University of Tromsø, and work on it and maintain it for fun.<br><br>
+
+<b>If you are a lecturer wanting an introduction to this site, <a href="index.php?pageID=for_lecturers">click here</a></b><br><br>
+
+<b>If you are a student, you have the following opportunities:</b><br>
+<ul>
+	<li><b>If you know the username of your lecturer</b><br>
+	The URL to directly access it is <?PHP print(ROOT_URL); ?>/?username where "username" has to be replaced with your lecturer's username. To go directly there, enter his/her username in the text box below, and click OK:<br><br>
+
+	<form action="<?PHP print(ROOT_URL); ?>/" method="GET">
+		Enter the username here to access his/her page: <input type="text" name="admin">
+		<input type="submit" value="OK">
+	</form>
+	
+	<li><b>If you do not know his/her username</b><br>
+	Please enter parts of or the entire name of your lecturer below, and click "Search".<br><br>
+
+	<form action="index.php" method="GET">
+	Name: <input type="text" name="name">
+	<input type="hidden" name="scriptID" value="lecturer_search"> 
+	<input type="submit" value="Search">
+	</form>
+	
+	<li><b>If you have no lecturer who uses this site</b><br>
+	Tell them about it! In the meantime, you can search for consonant tables. The quality and realiability, however, can vary. We take no responsibility. To search for table, <a href="index.php?pageID=consonant_table_search">click here</a>
+
+

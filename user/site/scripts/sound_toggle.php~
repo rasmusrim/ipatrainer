@@ -1,0 +1,14 @@
+<?PHP
+
+print_r($_COOKIE);
+
+if($_COOKIE['soundOff'] == 'true') {
+	setcookie('soundOff', 'false', 0, '/');
+} else {
+	setcookie('soundOff', 'true', 0, '/');
+}
+
+header('Location: ' . $_GET['returnTo']);
+
+
+?>

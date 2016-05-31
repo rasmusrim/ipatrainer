@@ -1,0 +1,197 @@
+body {
+	font-family: arial;
+	font-size: 9pt;
+	color: #444444;
+}
+
+TD {
+	font-size: 9pt;
+}
+
+A {
+	text-decoration: none;
+	color: #41519f;
+}
+
+A:hover {
+	text-decoration: underline;
+}
+
+H2 {
+	font-family: arial;
+	font-size: 9pt;
+	color: #444444;
+	font-weight: bold;
+}	
+
+.border {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #CCCCFF;
+}
+
+
+.maintext {
+	background-color: #FFFFFF;
+	padding: 10px;
+}
+
+.dropdown {
+	padding: 0px;
+	background-color: #FFFFFF;
+	width: 100%;
+	background-color: #DDDDFF;
+	text-align: left;
+	font-size: 9pt;
+
+}
+
+.info {
+	font-size: 9px;
+	color: #999999;
+	text-align: right;
+}
+
+.info A {
+	color: #555555;
+	font-weight: bold;
+
+}
+
+.smallMenu {
+	color: white;
+}
+
+.smallMenu A {
+	color: white;
+}
+
+.margin {
+	padding: 10px;
+}
+
+input {
+	font-family: arial;
+	font-size: 8pt;
+	color: #444444;
+}
+
+select {
+	font-family: arial;
+	font-size: 8pt;
+	color: #444444;
+}
+
+
+.button {
+	color: black;
+	height: 17px;
+	width: 100px;
+}
+
+.input50 {
+	width: 50px;
+}
+
+.input150 {
+	width: 150px;
+}
+
+.input250 {
+	width: 250px;
+}
+
+.input500 {
+	width: 500px;
+}
+
+.textarea100 {
+	width: 300px;
+	height: 100px;
+}
+
+.title {
+	font-size: 17pt;
+}
+
+.heading1 {
+
+	background-color: #364482;
+	color: white;
+	font-weight: bold;
+}
+
+.dataElementNotMouseOver {
+	color: #41519f;
+	background-color: #DDDDFF;
+}
+
+.dataElementNotMouseOver A {
+	font-weight: bold;
+}
+
+.dataElementMouseOver {
+	background-color: #41519f;
+	color: white;
+}
+
+.dataElementMouseOver A {
+	font-weight: bold;
+	color: white;
+}
+
+.IPA {
+ font-family: "Code2000", "Arial Unicode MS", "Lucida Sans Unicode", "Doulos SIL", "Charis SIL";
+ font-size: 18pt;
+}
+
+.IPA_consonant {
+ font-family: "Code2000", "Arial Unicode MS", "Lucida Sans Unicode", "Doulos SIL", "Charis SIL";
+ font-size: 18pt;
+ 
+}
+
+.IPA_vowel {
+ font-family: "Code2000", "Arial Unicode MS", "Lucida Sans Unicode", "Doulos SIL", "Charis SIL";
+ font-size: 18pt; 
+ 
+ 
+ height: 40px;
+ width: 20px; 
+ margin-top: 0px;
+ margin-left: 0px; 
+ padding-top: 0px; 
+ vertical-align: top;
+ position: absolute;
+ background-color: white;
+ 
+}
+
+.bigText {
+	font-size: 18pt;
+}
+
+.noBorderLeftRight {
+	border-left: none;
+	border-right: none;
+}
+
+.noBorderLeft {
+	border-left: none;
+}
+
+.noBorderRight {
+	border-right: none;
+}
+
+
+.rowMouseOver {
+	background-color: #3fbed5;
+	cursor: pointer;
+}
+
+.rowNotMouseOver {
+	background-color: transparent;
+	cursor: hand;
+}
+
