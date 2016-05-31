@@ -69,7 +69,7 @@ There are many things that need to be done. These are my priorities:
 2. Make the IPA Trainer object oriented.  
 3. Turn PHP-rendering of consonant tables and vowel trapeziums into JavaScript-rendering.  
 4. Make the exercises AJAX-based.
-
+5. Get rid of the flash based sound player and embrace HTML5 100%.
 
 
 
