@@ -129,7 +129,26 @@ if(stristr($_SERVER['REQUEST_URI'], 'ipawriter')) {
 }
 
 ?>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="<?PHP print(DATA_URL); ?>/javascript/notify.min.js"></script>js
 
+<style>
+.pointer {
+	cursor: pointer;
+}
+</style>
+<script>
+
+
+
+$.notify.defaults({ className: "info pointer" });
+$.notify('The IPA Trainer has been open sourced and I am looking for people willing to help.\n Click here to get to the project\'s GitHub site.', { position: "right bottom", autoHide: true, autoHideDelay: 5000, clickToHide: false});
+
+
+$('.notifyjs-wrapper').on('click', function() {
+	window.open('https://github.com/rasmusrim/ipatrainer');
+});
+</script>
 
 <div align="center">
 <br><br>
